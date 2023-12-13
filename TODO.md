@@ -12,17 +12,18 @@ Link: https://www.youtube.com/watch?v=5PdEmeopJVQ
 7. Download and unzip the project
 8. In pom.xml temporarily disable the "mongodb" part
 9. Run the server to check if everything's all right
+10. Writing the first endpoint
+11. Database Configuration
+12. Installing Additional Dependencies
+13. Setting Up Environment Variables (spring-dotenv)
+14. Movies and Reviews Endpoints
 
 ### To do
 
-Start on 32:43
-https://youtu.be/5PdEmeopJVQ?si=3raCDZhlMzUXo9FO&t=1963
+Start on 01:16:38
+https://youtu.be/5PdEmeopJVQ?si=a_Q8vx-MfWVwrKhB&t=4598
 
-Writing the first endpoint
-Database Configuration
-Installing Additional Dependencies
-Setting Up Environment Variables
-Movies and Reviews Endpoints
+Movies and Reviews Endpoints - continue
 Testing
 Backend Conclusion
 
