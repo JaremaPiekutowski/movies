@@ -1,6 +1,5 @@
 package pl.jarrecmovies.movies;
 
-import org.bson.types.ObjectId;
 /* Autowired - used for automatic dependency injection.
 Spring will automatically find the appropriate beans that you need
 and inject them into your class for you */

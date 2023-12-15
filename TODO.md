@@ -20,15 +20,10 @@ Link: https://www.youtube.com/watch?v=5PdEmeopJVQ
 
 ### To do
 
-Start on 01:16:38
-https://youtu.be/5PdEmeopJVQ?si=a_Q8vx-MfWVwrKhB&t=4598
+Start on 01:57:05
+BUT FIRST SERVE YOUR API ON NGROK!
+https://youtu.be/5PdEmeopJVQ?si=9xoVspvTJe2JgvAD&t=7025
 
-Movies and Reviews Endpoints - continue
-Testing
-Backend Conclusion
-
-Frontend Introduction
-Create the React Project
 Applying Bootstrap to our React application
 Implementing the Use State and Use Effect Hooks
 Create Home and Hero Component
