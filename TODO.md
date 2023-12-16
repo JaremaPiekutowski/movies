@@ -12,23 +12,26 @@ Link: https://www.youtube.com/watch?v=5PdEmeopJVQ
 7. Download and unzip the project
 8. In pom.xml temporarily disable the "mongodb" part
 9. Run the server to check if everything's all right
-10. Writing the first endpoint
+10. Write the first endpoint
 11. Database Configuration
-12. Installing Additional Dependencies
-13. Setting Up Environment Variables (spring-dotenv)
+12. Install Additional Dependencies
+13. Set Up Environment Variables (spring-dotenv)
 14. Movies and Reviews Endpoints
+15. Backend testing
+16. Create the React project
+17. Applying Bootstrap to our React application
+18. Implement the Use State and Use Effect Hooks
+19. Create Home and Hero Component
+20. Style the Carousel
+21. Create Header Component (Navigation)
+22. Create Trailer Component with react-player
 
 ### To do
 
-Start on 01:57:05
-BUT FIRST SERVE YOUR API ON NGROK!
-https://youtu.be/5PdEmeopJVQ?si=9xoVspvTJe2JgvAD&t=7025
+FIX: YouTube link in Hero.js and Trailer.js doesn't work
 
-Applying Bootstrap to our React application
-Implementing the Use State and Use Effect Hooks
-Create Home and Hero Component
-Style the Carousel
-Create Header Component (Navigation)
-Create Trailer Component with react-player
+Start on 02:28:17
+https://youtu.be/5PdEmeopJVQ?si=F78IThShzBAo_tmi&t=8897
+
 Create Movie Reviews Functionality
 Add and Get Reviews with HTTP Requests
