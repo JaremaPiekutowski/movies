@@ -1,6 +1,9 @@
 import axios from 'axios';
 
+/*
+Warning - configured for test serving locally.
+Should be changed to the final baseURL of the API.
+*/
 export default axios.create({
-    baseURL:'https://9c96-103-106-239-104.ap.ngrok.io',
-    headers: {"ngrok-skip-browser-warning": "true"}
+    baseURL:'http://localhost:8080',
 });
