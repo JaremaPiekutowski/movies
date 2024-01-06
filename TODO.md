@@ -28,10 +28,8 @@ Link: https://www.youtube.com/watch?v=5PdEmeopJVQ
 
 ### To do
 
-FIX: YouTube link in Hero.js and Trailer.js doesn't work
-
-Start on 02:28:17
-https://youtu.be/5PdEmeopJVQ?si=F78IThShzBAo_tmi&t=8897
+Start on 02:34:03
+https://youtu.be/5PdEmeopJVQ?si=cE6S0tIsSHds_Lel&t=9243
 
 Create Movie Reviews Functionality
 Add and Get Reviews with HTTP Requests
