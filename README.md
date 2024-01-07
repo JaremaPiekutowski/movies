@@ -40,5 +40,5 @@ Runs on http://localhost:8080
 ## Endpoints
 
 - [/api/v1/movies](http://localhost:8080/api/v1/movies) - GET all movies
-- [/api/v1/movies/<imdbId>](http://localhost:8080/api/v1/movies) - GET a movie by imdbID
+- [/api/v1/movies/{imdbId}](http://localhost:8080/api/v1/movies) - GET a movie by imdbID
 - [/api/v1/reviews](http://localhost:8080/api/v1/reviews) - POST review (reviewBody:str, imdbId:int)
