@@ -34,3 +34,7 @@ build/
 
 ### ENV Files ###
 .env
+
+### TODO Files ###
+TODO.md
+```

@@ -25,11 +25,9 @@ Link: https://www.youtube.com/watch?v=5PdEmeopJVQ
 20. Style the Carousel
 21. Create Header Component (Navigation)
 22. Create Trailer Component with react-player
+23. Create Movie Reviews Functionality
+24. Add and Get Reviews with HTTP Requests
 
 ### To do
 
-Start on 02:34:03
-https://youtu.be/5PdEmeopJVQ?si=cE6S0tIsSHds_Lel&t=9243
-
-Create Movie Reviews Functionality
-Add and Get Reviews with HTTP Requests
+Look through the code to understand it.
