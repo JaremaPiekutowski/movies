@@ -4,7 +4,7 @@ import {useParams} from 'react-router-dom';
 import {Container, Row, Col} from 'react-bootstrap';
 import ReviewForm from '../reviewform/ReviewForm';
 
-import React from 'react';
+import React from 'react'
 
 const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
 
@@ -16,7 +16,30 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
         getMovieData(movieId);
     }, []);
 
-    // TODO: Create method to add a review
+    const addReview = async (e) =>{
+        e.preventDefault();
+
+        const rev = revText.current;
+
+        try
+        {
+            const response = await api.post("/api/v1/reviews",{reviewBody: rev.value,imdbId:movieId});
+
+            const updatedReviews = [...reviews, {body: rev.value}];
+
+            rev.value = "";
+
+            setReviews(updatedReviews);
+        }
+        catch(err)
+        {
+            console.log(err);
+        }
+
+
+
+
+    }
 
     return (
         <Container>
@@ -32,7 +55,7 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
                     <>
                         <Row>
                             <Col>
-                                <ReviewForm handleSubmit={addReview} revText={revText} labelText = "Write a Review?" />
+                                <ReviewForm handleSubmit={addReview} revText={revText} labelText = "Dare to write a review?" />
                             </Col>
                         </Row>
                         <Row>
@@ -69,4 +92,5 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
     )
 }
 
-export default Reviews;
+
+export default Reviews
